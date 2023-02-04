@@ -247,7 +247,7 @@ echo ""
 echo -e "\E[44;1;37m    ATUALIZANDO O PAINEL     \E[0m"
 echo ""
 echo -e "WEB SONYC SSH" | figlet
-echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m"
+echo -e "                              \033[1;31mModificado por @SuperNet\033[1;36m"
 echo ""
 clear
 senha=$(cut -d"'" -f2 /var/www/html/pages/system/pass.php)
@@ -610,7 +610,7 @@ _________________________________________________
              jjl7u|__] |  |  |  |__| |__| | _ 
              |__] |__|  |  |    |  | |__| 
 _________________________________________________
-                                  Modificado por @sonycssh
+                                  Modificado por @SuperNet
 
 FECHA
 
