@@ -11,7 +11,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/jamesscr
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-@helpvpn
+@supernet
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
