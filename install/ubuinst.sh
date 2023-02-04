@@ -333,7 +333,7 @@ clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
 echo -e "WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
+echo -e "                              \033[1;31mModificado por @SuperNet\033[1;36m" | lolcat
 echo ""
 chave=$(curl -sSL "https://raw.githubusercontent.com/jamesscripts/Painelweb/main/install/chave") &>/dev/null
 
@@ -376,7 +376,7 @@ install_continue2
 } > /dev/null
 echo ""
 echo -e "WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
+echo -e "                              \033[1;31mModificado por @SuperNet\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;36mDEFINA UMA NOVA SENHA PARA\033[0m" | lolcat
 echo -e "\033[1;36mO USUÁRIO ROOT DA VPS E\033[0m" | lolcat
@@ -398,7 +398,7 @@ clear
 sed -i "s;upload_max_filesize = 2M;upload_max_filesize = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
 sed -i "s;post_max_size = 8M;post_max_size = 256M;g" /etc/php/8.1/apache2/php.ini > /dev/null 2>&1
 echo -e "PAINEL WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
+echo -e "                              \033[1;31mModificado por @SuperNet\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!" | lolcat
 echo ""
