@@ -76,11 +76,9 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/jamesscr
 
 ## // CRÉDITOS //
 
-@crazy_vpn
-@nandoslayer
-@swittecnologia
-@Davidsdy
-@sonycssh
+@Supernet.com
+https://supernet4g.netlify.app
 
-# 𓊈𒆜 GRUPO SONYC SSH: 𒆜𓊉
-👉 https://t.me/sonycsshgp
+
+# 𓊈𒆜 GRUPO SUPER NET SSH: 𒆜𓊉
+👉 https://supernet4g.netlify.app
