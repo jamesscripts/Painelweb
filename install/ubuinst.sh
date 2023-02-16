@@ -244,14 +244,14 @@ curl -sS https://getcomposer.org/installer | php > /dev/null 2>&1
 mv composer.phar /usr/local/bin/composer > /dev/null 2>&1
 chmod +x /usr/local/bin/composer > /dev/null 2>&1
 cd /var/www/html || exit
-wget https://raw.githubusercontent.com/jamesscripts/Painelweb/main/install/gestorssh.zip > /dev/null 2>&1
+wget https://www.dropbox.com/s/vwyxl0r865skdca/PAINEL-V.25.zip > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
-unzip gestorssh.zip > /dev/null 2>&1
+unzip PAINEL-V.25.zip  > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer install > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer require phpseclib/phpseclib:~2.0 > /dev/null 2>&1
 ln -s /usr/share/phpmyadmin/ /var/www/html > /dev/null 2>&1
 chmod 777 -R /var/www/html > /dev/null 2>&1
-rm gestorssh.zip index.html > /dev/null 2>&1
+rm PAINEL-V.25.zip  index.html > /dev/null 2>&1
 systemctl restart mysql
 clear
 }
